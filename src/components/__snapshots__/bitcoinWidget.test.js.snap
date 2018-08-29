@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BitcoinWidget /> layout should render a component matching the snapshot 1`] = `
+<div
+  className="bitcoin-wrapper shadow"
+>
+  <header>
+    <img
+      alt="Bitcoin Logo"
+      src="foo"
+    />
+  </header>
+  <div
+    className="price"
+  >
+    Coinbase $
+    0
+  </div>
+  <button
+    className="btn striped-shadow white"
+    onClick={[Function]}
+  >
+    <span>
+      Refresh
+    </span>
+  </button>
+</div>
+`;
