@@ -43,6 +43,7 @@ class BitcoinContainer extends React.Component {
   render() {
     const { coin } = this.state;
     const { price } = this.props;
+    console.log('coin', coin)
     console.log('price', price)
 
     // If no price, return null.

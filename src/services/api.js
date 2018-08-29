@@ -9,6 +9,7 @@ import { key } from '../nomicsKey';
 // const pricesEnpoint = coinId => `${nomics}${key}&currency=${coinId}`;
 
 export const getCoinPrices = name => {
+  console.log('getCoinPrices name:', name);
   return axios.get(
     `https://api.nomics.com/v1/markets/prices?key=${key}&currency=${name}`
   )
